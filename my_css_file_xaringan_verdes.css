@@ -1,0 +1,143 @@
+/*  ----------------- fichero CSS para las slides verdes xaringan  -------------- */ 
+
+
+/* definiendo estilos de los párrafos */ 
+
+
+p {text-align: justify;      /* justificar el texto del body */ 
+    line-height: 1.5; }     /* anchura entre las lineas 1.0 is the default in Firefox. 2.0 provides a large space */  
+
+ul {text-align: justify;  
+    line-height: 1.5; }
+
+
+h5 { color: purple;  font-weight: bold; text-align: center; 
+  font-size: 20px;
+  margin-top: 30px;   
+  margin-bottom: 20px; }  
+
+
+
+
+/* Guía para los colores: https://htmlcolorcodes.com/es/nombres-de-los-colores/  */
+
+ 
+
+/* para hacer lineas de colores <hr class="linea-orange"> */
+
+.linea-black {
+  border-top: 1px solid black;
+}
+
+.linea-blue {
+  border-top: 2.4px dashed darkblue;
+}
+
+.linea-red {
+  border-top: 2px solid red;
+}
+
+.linea-orange {
+  border-top: 2px solid #EB811B;
+}
+
+
+
+
+/* para hacer cajas de texto de colorines*/
+
+.caja-darkkhaki { background-color:#bdb76b; border-radius: 4px; padding: 13px;}
+
+.caja-gris-gainboro { background-color:#DCDCDC; border-radius: 4px; padding: 13px; 
+                 border: solid 8px black; }
+
+.caja-linea-verde {  color: #004346;
+  background-color: #fff;
+  border-top: 4pt solid #09bc8a;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  padding: 23px 10px 21px 10px;
+}
+
+
+html, body, strong, b {
+font-family: inherit;
+font-style: inherit;
+}
+
+
+/*  ----------------- Del curso de Earo: https://stats220.earo.me/  -------------- */ 
+
+.rotate-45 {transform: rotate(45deg); }
+.large { font-size: 140%; }
+.small { font-size: 80%; }
+   
+   
+/*  ----------------- colores  -------------- */ 
+.purple{ color: #c077af; }
+.red { color: #ef342a; }
+.orange { color: #f57125; }
+.orange2 {color: #F58634; }
+.blue { color: #22b6ed; }
+.green { color: #1fb27f; }
+.green2 {color: #007965; }
+.yellow { color: #faca07; }
+.yellow2 {color: #FFCC29; }
+.brown {color: #a84d18; }
+
+ 
+/*  ----------------- footnote -------------- */ 
+.footnote {
+  position: absolute;
+  bottom: 1em;
+  font-style: italic;
+  font-size: 70%;
+}
+
+
+
+/*  ----------------- una nueva clase de inversa: muy chula  -------------- */ 
+.inverse2 {
+  background: #69686d;
+  color: #f2f2f6;
+}
+.inverse2 p {
+  color: #f2f2f6;
+}
+.inverse2 h1, .inverse2 h2, .inverse2 h3 {
+  font-weight: bold; text-align: center;
+  color: #b2d68c;
+  line-height: 1.2em;
+}
+
+.inverse2 h4, .inverse2 h5 {
+  text-align: center;
+  color: #f2f2f6;
+  line-height: 1.2em;
+}
+
+
+
+/*  ----------------- texto subrayado  amarillo-------------- */ 
+
+.yellow-h{
+   background: #ffff88;
+}
+
+/*  ----------------- texto subrayado verde -------------- */ 
+
+.out-t, remark-inline-code {
+   background: #9fff9f;
+   border-radius: 3px;
+   padding: 4px;
+}
+
+/*  ----------------- texto subrayado gris -------------- */ 
+
+.inline-c, remark-inline-code {
+   background: #e5e5e5;
+   border-radius: 3px;
+   padding: 4px;
+   font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+}
